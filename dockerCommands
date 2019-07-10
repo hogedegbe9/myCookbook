@@ -1,0 +1,4 @@
+Format: command | explanation
+docker run | creates a container, provides all the launch capabilities for Docker
+docker run -i -t | The -i flag keeps STDIN open from the container, -t flag tells Docker to assign a pseudo-tty (gives you an interactive shell)
+docker run -i -t ubuntu /bin/bash | the ubuntu refers to the image, /bin/bash is shell command we told docker to run once the container was made
